@@ -79,7 +79,7 @@
 }
 @media(max-width:500px){
     .card{
-        width: 50%;
-        margin: 20px calc(50% / 2);
+        width: 70%;
+        margin: 20px calc(30% / 2);
     }
 }
