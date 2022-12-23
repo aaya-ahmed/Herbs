@@ -77,7 +77,7 @@
         margin: 20px calc(20% / 4);
     }
 }
-@media(max-width:995px){
+@media(max-width:500px){
     .card{
         width: 50%;
         margin: 20px calc(50% / 2);
