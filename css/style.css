@@ -1,0 +1,78 @@
+.firstsection{
+    height: 700px;
+    background-image: url("../images/mainbackground.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.graybackground{
+    position: relative;
+    height: 100%;
+}
+.graybackground h2{
+    opacity: 1;
+    font-family: 'Spicy Rice', cursive;
+    color: white;
+    width: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    word-wrap: break-word;
+    transform:translate(-50%,-50%) ;
+    transition: opacity 3s ease-in;
+    font-size: 50px;
+}
+.active .graybackground h2,.active .graybackground .product-btn{
+    opacity: 1;
+}
+.product-btn{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform:translate(-50%,-70%) ;
+    background-color:#e65100 ;
+    color: white;
+    transition: opacity 3s ease-in;
+}
+.product-btn a{
+    text-decoration: none;
+    color: white;
+}
+.product-btn:hover{
+    background-color:#e65100 ;
+}
+.products{
+    width: 100%;
+    padding: 50px auto;
+    background-color: white;
+}
+.product-header h2{
+    font-family: 'Spicy Rice', cursive;
+    font-weight: 900;
+    color:rgb(178, 91, 5);
+    text-align: center;
+}
+.row div{
+    text-align: center;
+}
+.row div img{
+    width:200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.rightarrow{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+.leftarrow{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+@media(max-width:1020px){
+    .graybackground h2{
+        font-size: 30px;
+    }
+}

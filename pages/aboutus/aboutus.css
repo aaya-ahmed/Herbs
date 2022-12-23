@@ -1,0 +1,61 @@
+.about-container{
+    background-color: white;
+}
+.about-header{
+    padding: 80px 0 0 20px;
+}
+.about-header span{
+    font-size: 40px;
+    font-weight: 800;
+    border-bottom: 3px solid rgb(255, 145, 0);
+}
+.about-section{
+    margin: 80px 0 0 0;
+}
+.img1 img{
+    width: 100%;
+}
+.about-paragraph div{
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 0 0 10% 0;
+}
+.about-paragraph div p{
+    word-break: break-word;
+    line-height: 40px;
+}
+.about-paragraph div ul li{
+    padding: 5px 0;
+}
+@media(max-width:992px){
+
+}
+@media(max-width:770px){
+    .about-section{
+        margin: 30px 0 0 0;
+    }
+    .images{
+        display: none;
+    }
+    .about-paragraph{
+        background-image: url('../../images/about/mainabout2.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;   
+        padding:0;   
+        height: fit-content;  
+    }
+    .about-paragraph div{
+        background-color: rgba(128, 128, 128, 0.827);
+        padding: 1rem;
+        margin: 0;
+    }
+    .about-paragraph div p{
+        color: white;
+    }
+    .col-md-6 h3, .col-md-6 ul{
+        margin-left: 0%;
+    }
+    .col-md-6 h3,.col-md-6 ul li{
+        color: white;
+    }
+}
